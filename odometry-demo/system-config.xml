@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <world>
+        <background path="C:/Users/il2di/Pictures/lineprofi_c.png" external="true" backgroundRect="-512:-323:1024:646"/>
+        <walls>
+            <wall begin="-500:0" end="-538:0" id="{7fd4ba12-601d-4827-9df0-7bd5b635c231}"/>
+        </walls>
+        <colorFields/>
+        <images/>
+        <regions/>
+    </world>
+    <robots>
+        <robot direction="90.8681" id="trikV62KitRobot" position="-443:-26">
+            <sensors>
+                <sensor direction="447.888" type="trik::robotModel::parts::TrikInfraredSensor" port="A1###input###А1###sensorA1" position="75:25"/>
+                <sensor direction="0" type="trik::robotModel::parts::TrikLineSensor" port="LineSensorPort###input###TrikLineSensorPort###lineSensor" position="66:25"/>
+            </sensors>
+            <startPosition direction="90.8681" x="-418" y="-1" id="{55b2fef6-9ef8-422c-a2a2-a855c9ae9489}"/>
+            <wheels right="M4###output###М4###" left="M3###output###М3###"/>
+        </robot>
+    </robots>
+</root>
